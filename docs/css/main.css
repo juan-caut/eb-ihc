@@ -190,7 +190,7 @@ body {
   display: block;
   margin: 0px;
   border-radius:15px;
-  box-shadow: 0 6px 12px #0016;
+  box-shadow: 4px 4px 4px 4px #0016
 }
 
 .shop__grid--item-textbox {
@@ -420,7 +420,7 @@ body {
           justify-content: space-between;
   background-color: #702619;
   padding: 5rem 5vw;
-  border-radius: .5rem;
+  border-radius: 15px;
 }
 
 .update__flex--textbox {
@@ -432,18 +432,24 @@ body {
 }
 
 .update__flex--textbox-text {
-  font-size: 1.2rem;
+  font-size: 2.0rem;
 }
 
 .form__group--input {
   padding: 1.5rem 10rem;
   outline: none;
   border: none;
+  border-radius: 15px;
+  font-size: 2.0rem;
 }
 
 .form__group--input-footer {
   padding: 1rem 2rem;
   margin-top: 2rem;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  max-width: 100%;
 }
 
 .footer {
@@ -552,6 +558,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  box-shadow: 0 0 12px #0016;
 }
 
 .home-container__brand-logo {
@@ -685,7 +692,7 @@ body {
     margin: 0 auto;
   }
   html {
-    font-size: 43.75%;
+    font-size: 60%;
   }
   .header__textbox--discount {
     font-size: 2rem;
