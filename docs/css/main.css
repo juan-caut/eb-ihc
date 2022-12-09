@@ -24,6 +24,7 @@ a {
 img {
   max-width: 100%;
   height: auto;
+  margin: 0px 10px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -61,16 +62,13 @@ body {
 }
 
 .header__textbox {
-  position: absolute;
-  top: 55%;
-  left: 35%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  padding: 0 8vw;
+  margin-top: 45%;
+  /*position: absolute;
+  top: 55%;*/
 }
 
 .header__textbox--discount {
-  font-size: 1.4rem;
+  font-size: 2.0rem;
   color: #e2bba4;
 }
 
@@ -177,56 +175,38 @@ body {
   position: relative;
 }
 
-.shop__grid--item-1:before {
+.shop__grid--item:before {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(12, 6, 6, 0.7);
-}
-
-.shop__grid--item-2:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(12, 6, 6, 0.7);
+  background-color: rgba(10, 15, 15, 0.8);
+  border-radius:40px;
 }
 
 .shop__grid--item-img {
   display: block;
+  margin: 0px;
+  border-radius:40px;
+  box-shadow: 0 6px 12px #0016;
 }
 
 .shop__grid--item-textbox {
-  color: #fef9f6;
+  color: #ecaa79;
   position: absolute;
-  top: 50%;
-  left: 25%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  top: 0%;
+  left: 0%;
+  padding: 5%;
 }
 
 .shop__grid--item-textbox *:not(:last-child) {
   margin-bottom: 1rem;
 }
 
-
-.shop__grid--item-arrival {
-  font-size: 1.3rem;
-}
-
-
-.shop__grid--item-off {
-  font-size: 2.5rem;
-}
-
-
 .shop__grid--item-view {
-  font-size: 1.3rem;
+  font-size: 2.0rem;
 }
 
 .featured__list {
@@ -275,6 +255,7 @@ body {
 .heading-secondary {
   font-size: 4rem;
   text-align: center;
+  padding: 14px 0px;
 }
 .pages {
   padding: 5rem 0;
@@ -502,31 +483,32 @@ body {
 /*-------------------------------------------------------------*/
 .RandR {
   background: #4e2b23;
-  padding: 20px;
 }
 .RandR-title {
   color: #ffffff;
   font-size: 2.5rem;
   text-align: center;
+  padding: 1.5% 0px 0px 0px;
 }
 .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 1.5% 0px;
 }
 .card {
   background: #f0f1f4;
   box-shadow: 4px 4px 4px 4px #0016;
-  margin: 5px 20px;
-  padding: 5px 20px;
+  margin: 0px 2%;
+  padding: 0px 2%;
+  max-width: 25%;
 }
 .card ul {
-  margin-left: 35px;
-  width: 170px;
+  margin-left: 10%;
 }
 
 .card li{
-  font-size: 1.2rem;
+  font-size: 2.0rem;
 }
 
 .card-header {
@@ -537,18 +519,17 @@ body {
   text-align: center;
   color: #702619;
   font-size: 2.5rem;
-  margin: 10px 0 35px 0;
+  margin: 10% 0;
 }
 .card-subtitle {
-  font-size: 1.2rem;
-  color: #702619;
+  font-size: 2.0rem;
+   color: #702619;
 }
 .card-btn {
 
   display: block;
   text-align: center;
-  margin-top: 30px;
-  margin-block-end: 15px;
+  margin: 10% 0px;
 }
 .card-btn button {
 
@@ -566,7 +547,7 @@ body {
 }
 
 .container-logos-{
-  padding: 40px 0px;
+  padding: 20px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
