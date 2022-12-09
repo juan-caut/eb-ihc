@@ -710,11 +710,17 @@ body {
     margin: 0 auto;
   }
   .shop__grid--item-textbox {
-    top: 50%;
-    left: 35%;
+    top: 1%;
+    left: 1%;
+  }
+  .shop__grid--item-view {
+    font-size: 1.5rem;
   }
   html {
-    font-size: 56.25%;
+    font-size: 65.25%;
+  }
+  .form__group--input {
+    padding: 1.5rem 3rem;
   }
 }
 
