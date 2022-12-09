@@ -61,12 +61,9 @@ body {
 }
 
 .header__textbox {
-  position: absolute;
-  top: 55%;
-  left: 35%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  padding: 0 8vw;
+  margin-top: 45%;
+  /*position: absolute;
+  top: 55%;*/
 }
 
 .header__textbox--discount {
